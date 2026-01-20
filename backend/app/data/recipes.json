@@ -1,0 +1,329 @@
+[{
+  "id": "chicken-karahi",
+  "name": "Chicken Karahi",
+  "name_urdu": "چکن کڑاہی",
+  "category": "main-course",
+  "ingredients": {
+    "detectable": ["tamatar", "hari_piyaaz"],
+    "non_detectable": ["chicken", "ginger_garlic_paste"],
+    "pantry": ["namak", "tel", "laal_mirch", "haldi", "dhania_powder", "zeera"],
+    "optional": ["dahi", "hari_dhania"]
+  },
+  "instructions": [
+    "Heat oil in karahi on high heat",
+    "Add chicken with salt, cook 5 mins until lightly browned",
+    "Add ginger-garlic paste and whole green chilies, cook 1 minute",
+    "Add tomatoes and all spices, mix well",
+    "Cover and simmer on low heat for 20 minutes",
+    "Uncover and cook on high for 5-7 mins until gravy thickens",
+    "Garnish with coriander leaves and serve hot with naan or rice"
+  ],
+  "nutrition": {
+    "calories": 350,
+    "protein": 35,
+    "carbs": 25,
+    "fat": 12,
+    "fiber": 3
+  },
+  "allergens": [],
+  "cook_time": 30,
+  "prep_time": 15,
+  "difficulty": "intermediate",
+  "servings": 4
+},{
+    
+  "id": "aloo-tamatar",
+  "name": "Aloo Tamatar",
+  "name_urdu": "الو تماٹر",
+  "category": "main-course",
+  "ingredients": {
+    "detectable": [ "tamatar", "hari_mirch"],
+    "non_detectable": ["aloo", "adrak","lehsun_paste","piyaaz"],
+    "pantry": ["namak", "tel","laal_mirch","haldi","dhania_powder","jeera"],
+    "optional": ["hari_dhania", "dahi"]
+  },
+  "instructions": [
+    "Heat the oil or ghee in a large pan, wok (kadai), or pressure cooker over medium heat.",
+    "Add the onions and cook until golden brown.",
+    "Add the ginger-garlic paste and cook for 1 minute.",
+    "Add the tomatoes and cook until they soften.",
+    "Add the potatoes and cook for 5 minutes.",
+    "Add all the spices and cook for 2 minutes.",
+    "Add water and cook until the potatoes are tender.",
+    "Garnish with hari_dhaniia and serve hot with roti or rice"
+  ],
+  "nutrition": {
+    "calories": 200,
+    "protein": 3,
+    "carbs": 30,
+    "fat": 10,
+    "fiber": 3
+  },
+  "allergens": ["dairy"],
+  "cook_time": 10,
+  "prep_time": 10,
+  "difficulty": "easy",
+  "servings": 4
+
+
+},
+{"id": "anday-ka-salan",
+  "name": "Anday Ka Salan",
+  "name_urdu": "اندی کا سالن",
+  "category": "main-course",
+  "ingredients": {
+    "detectable": ["anday", "tamatar","hari_mirch"],
+    "non_detectable": ["piyaaz", "adrak", "lehsun_paste"],
+    "pantry": ["namak", "tel","laal_mirch","haldi","dhania_powder","zeera","safaid_mirch"],
+    "optional": ["dahi", "hari_dhania","garam_masala"]
+  },
+  "instructions": [
+    "Hard-boil the eggs, peel them, and make small slits in each egg so they can absorb the flavors of the curry. In a separate pan, you can lightly fry the eggs in a little oil with a pinch of turmeric and chili powder until golden brown, then set them aside.",
+    "In a large pan, heat oil and add onions. Cook until golden brown.",
+    "Add ginger-garlic paste and cook for 1 minute.",
+    "Add tomatoes and cook until they soften.",
+    "Add potatoes, all spices, and salt. Cook for 5 minutes.",
+    "Add water and cook until the potatoes are tender.",
+    "Garnish with coriander leaves and serve hot with roti or rice and add garam masala on top of the curry for extra flavor."
+  ],
+  "nutrition": {
+    "calories": 300,
+    "protein": 80,
+    "carbs": 30,
+    "fat": 10,
+    "fiber": 5
+  },
+  "allergens": [],
+  "cook_time": 25,
+  "prep_time": 10,
+  "difficulty": "easy",
+  "servings": 4},
+  {
+    "id": "anda-piyaaz",
+    "name": "Anda Piyaaz",
+    "name_urdu": "انڈا پیاز",
+    "category": "main-course",
+    "ingredients": {
+      "detectable": ["anday", "hari_mirch", "tamatar"],
+      "non_detectable": ["piyaaz", "adrak", "lehsun_paste"],
+      "pantry": ["namak", "tel", "laal_mirch", "haldi", "dhania_powder", "zeera"],
+      "optional": ["dahi", "hari_dhania", "garam_masala"]
+  },
+  "instructions": [
+    "Heat cooking oil in a frying pan over medium-low heat. Add chopped onions and green chilies. Fry until the onions become soft and translucent.",
+  "Add chopped tomatoes (if using) and cook for 1 minute until they soften.",
+  "Add salt, red chili powder, turmeric powder, and cumin/coriander powder. Mix well and cook the masala for 2–3 minutes.",
+  "In a separate bowl, whisk the eggs with a little extra salt and black pepper (optional).",
+  "Pour the whisked eggs into the pan and lower the heat slightly.",
+  "Stir immediately for a scrambled texture, or let the eggs set slightly before breaking them apart.",
+  "Cook until the eggs are fully done and excess moisture dries out.",
+  "Garnish with fresh chopped coriander leaves and serve hot with chapati, roti, or bread."
+  ],
+  "nutrition": {
+    "calories": 300,
+    "protein": 80,
+    "carbs": 30,
+    "fat": 10,
+    "fiber": 5
+  },
+  "allergens": [],
+  "cook_time": 25,
+  "prep_time": 10,
+  "difficulty": "easy",
+  "servings": 4
+
+  },
+  {
+  "id": "gajar-halwa",
+  "name": "Gajar Halwa",
+  "name_urdu": "گاجر کا حلوہ",
+  "category": "dessert",
+  "ingredients": {
+    "detectable": ["gajar"],
+    "non_detectable": ["doodh"],
+    "pantry": ["cheeni", "ghee", "elaichi"],
+    "optional": ["badam", "pista", "kishmish"]
+  },
+  "instructions": [
+    "Wash, peel, and grate the carrots.",
+    "Heat ghee in a pan and add grated carrots.",
+    "Cook on medium heat until the carrots soften.",
+    "Add milk and cook, stirring occasionally, until the milk reduces.",
+    "Add sugar and cardamom powder and mix well.",
+    "Cook until the halwa thickens and ghee separates.",
+    "Garnish with dry fruits and serve warm."
+  ],
+  "nutrition": {
+    "calories": 350,
+    "protein": 6,
+    "carbs": 45,
+    "fat": 15,
+    "fiber": 5
+  },
+  "allergens": ["dairy", "nuts"],
+  "cook_time": 40,
+  "prep_time": 15,
+  "difficulty": "intermediate",
+  "servings": 4
+},
+{
+  "id": "kachumber-salad",
+  "name": "Kachumber Salad",
+  "name_urdu": "کچومر سلاد",
+  "category": "salad",
+  "ingredients": {
+    "detectable": ["tamatar", "kheera", "hari_piyaaz", "hari_mirch"],
+    "non_detectable": [],
+    "pantry": ["namak", "kala_namak", "lemon"],
+    "optional": ["chaat_masala", "hari_dhania"]
+  },
+  "instructions": [
+    "Finely chop tomatoes, cucumber, onions, and green chilies.",
+    "Add all chopped vegetables to a bowl.",
+    "Sprinkle salt, black salt, and chaat masala.",
+    "Add lemon juice and mix well.",
+    "Garnish with fresh coriander and serve immediately."
+  ],
+  "nutrition": {
+    "calories": 80,
+    "protein": 2,
+    "carbs": 12,
+    "fat": 1,
+    "fiber": 3
+  },
+  "allergens": [],
+  "cook_time": 5,
+  "prep_time": 10,
+  "difficulty": "easy",
+  "servings": 2
+},
+{
+  "id": "vegetable-pulao",
+  "name": "Vegetable Pulao",
+  "name_urdu": "سبزی پلاؤ",
+  "category": "main-course",
+  "ingredients": {
+    "detectable": ["gajar", "hari_mirch", "hari_piyaaz"],
+    "non_detectable": ["chawal", "aloo", "matar"],
+    "pantry": ["namak", "tel", "zeera", "laung", "elaichi", "tej_patta"],
+    "optional": ["dahi", "garam_masala"]
+  },
+  "instructions": [
+    "Wash and soak rice for 20 minutes.",
+    "Heat oil in a pot and add cumin seeds, cloves, cardamom, and bay leaf.",
+    "Add onions and sauté until light golden.",
+    "Add vegetables and cook for 3–4 minutes.",
+    "Add rice, salt, and water. Mix gently.",
+    "Cover and cook on low heat until rice is fully cooked.",
+    "Fluff the rice and serve hot with raita."
+  ],
+  "nutrition": {
+    "calories": 280,
+    "protein": 6,
+    "carbs": 45,
+    "fat": 8,
+    "fiber": 4
+  },
+  "allergens": [],
+  "cook_time": 25,
+  "prep_time": 15,
+  "difficulty": "easy",
+  "servings": 4
+},
+{
+  "id": "daal-chawal",
+  "name": "Daal Chawal",
+  "name_urdu": "دال چاول",
+  "category": "main-course",
+  "ingredients": {
+    "detectable": ["tamatar", "hari_mirch"],
+    "non_detectable": ["daal", "chawal"],
+    "pantry": ["namak", "tel", "haldi", "zeera"],
+    "optional": ["hari_dhania", "lemon"]
+  },
+  "instructions": [
+    "Wash and boil daal with water and turmeric until soft",
+    "In separate pot, cook rice with salt",
+    "Heat oil in pan, add cumin seeds",
+    "Add tomatoes and green chilies, cook 2 mins",
+    "Pour over cooked daal, mix well",
+    "Serve daal with rice, garnish with coriander"
+  ],
+  "nutrition": {
+    "calories": 320,
+    "protein": 15,
+    "carbs": 50,
+    "fat": 6,
+    "fiber": 8
+  },
+  "allergens": [],
+  "cook_time": 30,
+  "prep_time": 10,
+  "difficulty": "easy",
+  "servings": 4
+},
+{
+  "id": "fruit-chaat",
+  "name": "Fruit Chaat",
+  "name_urdu": "فروٹ چاٹ",
+  "category": "dessert",
+  "ingredients": {
+    "detectable": ["seb", "kela", "maalta"],
+    "non_detectable": ["angoor"],
+    "pantry": ["namak", "kala_namak", "chaat_masala"],
+    "optional": ["lemon"]
+  },
+  "instructions": [
+    "Chop all fruits into small pieces",
+    "Add fruits to a large bowl",
+    "Sprinkle salt, black salt, and chaat masala",
+    "Add lemon juice if using",
+    "Mix well and serve immediately"
+  ],
+  "nutrition": {
+    "calories": 150,
+    "protein": 2,
+    "carbs": 35,
+    "fat": 1,
+    "fiber": 5
+  },
+  "allergens": [],
+  "cook_time": 0,
+  "prep_time": 10,
+  "difficulty": "easy",
+  "servings": 4
+},
+{
+  "id": "aloo-gobi",
+  "name": "Aloo Gobi",
+  "name_urdu": "آلو گوبھی",
+  "category": "main-course",
+  "ingredients": {
+    "detectable": ["gobi", "tamatar", "hari_mirch"],
+    "non_detectable": ["aloo", "ginger_garlic_paste"],
+    "pantry": ["namak", "tel", "haldi", "laal_mirch", "dhania_powder", "zeera"],
+    "optional": ["hari_dhania", "garam_masala"]
+  },
+  "instructions": [
+    "Cut cauliflower and potatoes into medium pieces",
+    "Heat oil, add cumin seeds, let them splutter",
+    "Add ginger-garlic paste and green chilies, cook 1 min",
+    "Add potatoes and cauliflower, stir well",
+    "Add tomatoes and all spices, mix",
+    "Cover and cook on low heat for 15-20 mins until tender",
+    "Garnish with coriander and serve with roti"
+  ],
+  "nutrition": {
+    "calories": 180,
+    "protein": 5,
+    "carbs": 28,
+    "fat": 7,
+    "fiber": 6
+  },
+  "allergens": [],
+  "cook_time": 25,
+  "prep_time": 15,
+  "difficulty": "easy",
+  "servings": 4
+}
+]

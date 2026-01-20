@@ -1,0 +1,110 @@
+{
+  "detectable": [
+    "tamatar",
+    "gajar",
+    "gobi",
+    "anday",
+    "hari_mirch",
+    "shimla_mirch",
+    "kela",
+    "seb",
+    "hari_piyaaz",
+    "maalta",
+    "kheera"
+  ],
+
+  "proteins": {
+    "category": "Proteins",
+    "icon": "🥩",
+    "items": [
+      { "id": "chicken", "name": "Chicken", "name_urdu": "مرغی" },
+      { "id": "beef", "name": "Beef", "name_urdu": "گائے کا گوشت" },
+      { "id": "mutton", "name": "Mutton", "name_urdu": "بکرے کا گوشت" },
+      { "id": "fish", "name": "Fish", "name_urdu": "مچھلی" },
+      { "id": "keema", "name": "Keema", "name_urdu": "قیمہ" },
+      { "id": "prawns", "name": "Prawns", "name_urdu": "جھینگے" }
+    ]
+  },
+
+  "daals": {
+    "category": "Daals & Legumes",
+    "icon": "🫘",
+    "items": [
+      { "id": "daal_masoor", "name": "Masoor Dal", "name_urdu": "مسور کی دال" },
+      { "id": "daal_moong", "name": "Moong Dal", "name_urdu": "مونگ کی دال" },
+      { "id": "daal_chana", "name": "Chana Dal", "name_urdu": "چنے کی دال" },
+      { "id": "daal_urad", "name": "Urad Dal", "name_urdu": "اُڑد کی دال" },
+      { "id": "daal_arhar", "name": "Toor Dal", "name_urdu": "ارہر کی دال" },
+      { "id": "kaali_daal", "name": "Black Lentils", "name_urdu": "کالی دال" },
+      { "id": "chickpeas", "name": "Chickpeas", "name_urdu": "چنے" },
+      { "id": "lobia", "name": "Black Eyed Peas", "name_urdu": "لوبیا" },
+      { "id": "rajma", "name": "Kidney Beans", "name_urdu": "راجما" }
+    ]
+  },
+
+  "dairy": {
+    "category": "Dairy",
+    "icon": "🥛",
+    "items": [
+      { "id": "dahi", "name": "Yogurt", "name_urdu": "دہی" },
+      { "id": "doodh", "name": "Milk", "name_urdu": "دودھ" },
+      { "id": "paneer", "name": "Paneer", "name_urdu": "پنیر" },
+      { "id": "makhan", "name": "Butter", "name_urdu": "مکھن" },
+      { "id": "cream", "name": "Fresh Cream", "name_urdu": "ملائی" }
+    ]
+  },
+
+  "vegetables": {
+    "category": "Other Vegetables",
+    "icon": "🥬",
+    "items": [
+      { "id": "aloo", "name": "Potato", "name_urdu": "آلو" },
+      { "id": "palak", "name": "Spinach", "name_urdu": "پالک" },
+      { "id": "baingan", "name": "Brinjal", "name_urdu": "بینگن" },
+      { "id": "bhindi", "name": "Okra", "name_urdu": "بھنڈی" },
+      { "id": "karela", "name": "Bitter Gourd", "name_urdu": "کریلا" },
+      { "id": "tori", "name": "Ridge Gourd", "name_urdu": "توری" }
+    ]
+  },
+
+  "grains": {
+    "category": "Grains & Breads",
+    "icon": "🌾",
+    "items": [
+      { "id": "chawal", "name": "Rice", "name_urdu": "چاول" },
+      { "id": "basmati", "name": "Basmati Rice", "name_urdu": "باسمتی چاول" },
+      { "id": "atta", "name": "Wheat Flour", "name_urdu": "آٹا" },
+      { "id": "maida", "name": "All Purpose Flour", "name_urdu": "میدہ" },
+      { "id": "besan", "name": "Gram Flour", "name_urdu": "بیسن" },
+      { "id": "roti", "name": "Roti", "name_urdu": "روٹی" },
+      { "id": "naan", "name": "Naan", "name_urdu": "نان" }
+    ]
+  },
+
+  "pantry": {
+    "category": "Pantry & Masalay",
+    "icon": "🏪",
+    "items": [
+      { "id": "namak", "name": "Salt", "name_urdu": "نمک" },
+      { "id": "kala_namak", "name": "Black Salt", "name_urdu": "کالا نمک" },
+      { "id": "tel", "name": "Cooking Oil", "name_urdu": "تیل" },
+      { "id": "ghee", "name": "Ghee", "name_urdu": "گھی" },
+      { "id": "laal_mirch", "name": "Red Chili Powder", "name_urdu": "لال مرچ" },
+      { "id": "kuti_lal_mirch", "name": "Crushed Red Chili", "name_urdu": "کٹی لال مرچ" },
+      { "id": "haldi", "name": "Turmeric", "name_urdu": "ہلدی" },
+      { "id": "zeera", "name": "Cumin Seeds", "name_urdu": "زیرہ" },
+      { "id": "sabut_dhania", "name": "Coriander Seeds", "name_urdu": "ثابت دھنیا" },
+      { "id": "dhania_powder", "name": "Coriander Powder", "name_urdu": "دھنیا پاؤڈر" },
+      { "id": "garam_masala", "name": "Garam Masala", "name_urdu": "گرم مصالحہ" },
+      { "id": "chaat_masala", "name": "Chaat Masala", "name_urdu": "چاٹ مصالحہ" },
+      { "id": "amchur", "name": "Dry Mango Powder", "name_urdu": "آمچور" },
+      { "id": "hing", "name": "Asafoetida", "name_urdu": "ہیونگ" },
+      { "id": "tej_patta", "name": "Bay Leaf", "name_urdu": "تیز پات" },
+      { "id": "laung", "name": "Cloves", "name_urdu": "لونگ" },
+      { "id": "elaichi", "name": "Cardamom", "name_urdu": "الائچی" },
+      { "id": "darchini", "name": "Cinnamon", "name_urdu": "دار چینی" },
+      { "id": "adrak", "name": "Ginger", "name_urdu": "ادرک" },
+      { "id": "lehsun", "name": "Garlic", "name_urdu": "لہسن" }
+    ]
+  }
+}
