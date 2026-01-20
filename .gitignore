@@ -1,17 +1,22 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
 venv/
 .env
 
-# YOLO training outputs
+# Datasets (do NOT upload)
+dataset/
+dataset_*/
 runs/
-debug*.jpg
-test_*.jpg
-*_result.jpg
+label_studio_export/
 
-# Large datasets (you can choose to ignore if you want)
-# dataset*/  
+# Uploaded files
+backend/uploads/
 
-# Raw training model (if you already have it in backend/app/models/)
-yolov8n.pt
+# OS files
+.DS_Store
+Thumbs.db
