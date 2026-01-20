@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# YOLO training outputs
+runs/
+debug*.jpg
+test_*.jpg
+*_result.jpg
+
+# Large datasets (you can choose to ignore if you want)
+# dataset*/  
+
+# Raw training model (if you already have it in backend/app/models/)
+yolov8n.pt
