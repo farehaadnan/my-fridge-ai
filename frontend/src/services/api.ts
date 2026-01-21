@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// Make sure the environment variable is treated as a string
+// Single, safe declaration with fallback
 const API_BASE_URL = `${process.env.REACT_APP_API_URL || 'https://my-fridge-ai-backend.onrender.com'}/api`;
 
 const api = axios.create({
