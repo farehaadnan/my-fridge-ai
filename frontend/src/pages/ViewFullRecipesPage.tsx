@@ -39,7 +39,7 @@ const RecipeDetailPage: React.FC = () => {
     const fetchRecipe = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`http://localhost:8000/api/recipes/${recipeId}`);
+        const response = await fetch(`https://my-fridge-ai-backend.onrender.com/api/recipes/${recipeId}`);
         
         if (!response.ok) {
           throw new Error('Recipe not found');
@@ -97,11 +97,11 @@ const RecipeDetailPage: React.FC = () => {
     );
   }
 
-  const allIngredients = [
-    ...recipe.ingredients.detectable,
-    ...recipe.ingredients.non_detectable,
-    ...recipe.ingredients.pantry
-  ];
+  //const allIngredients = [
+   // ...recipe.ingredients.detectable,
+  //  ...recipe.ingredients.non_detectable,
+  //  ...recipe.ingredients.pantry
+ // ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-green-50">
@@ -288,5 +288,6 @@ const RecipeDetailPage: React.FC = () => {
     </div>
   );
 };
+
 
 export default RecipeDetailPage;
