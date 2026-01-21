@@ -26,7 +26,7 @@ const RecipesPage: React.FC = () => {
 
       try {
         setLoading(true);
-        const response = await fetch('http://localhost:8000/api/recipes/match', {
+        const response = await fetch('https://my-fridge-ai-backend.onrender.com/api/recipes/match', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ ingredients })
@@ -231,3 +231,4 @@ const RecipesPage: React.FC = () => {
 
 
 export default RecipesPage;
+
