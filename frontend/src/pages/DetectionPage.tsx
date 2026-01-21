@@ -88,48 +88,54 @@ const DetectionPage: React.FC = () => {
   };
 
   const handleDetect = async () => {
-    if (!selectedImage) return;
+  if (!selectedImage) return;
 
-    setIsDetecting(true);
-    const formData = new FormData();
-    formData.append('file', selectedImage);
+  setIsDetecting(true);
+  const formData = new FormData();
+  formData.append('file', selectedImage);
 
-    try {
-      const response = await fetch('http://localhost:8000/api/detect', {
-        method: 'POST',
-        body: formData,
-      });
+  try {
+    // Use environment variable for API URL
+    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+    
+    console.log('🔍 API URL:', API_URL); // Debug log
+    
+    const response = await fetch(`${API_URL}/api/detect`, {
+      method: 'POST',
+      body: formData,
+    });
 
-      if (!response.ok) {
-        throw new Error('Detection failed');
-      }
+    console.log('📡 Response status:', response.status); // Debug log
 
-      const data = await response.json();
-      console.log('🔍 Detection API response:', data);
-      
-      // Extract ingredient names from DetectionResult objects
-      let ingredients: string[] = [];
-      
-      if (data.detected_items && Array.isArray(data.detected_items)) {
-        // Backend returns array of DetectionResult objects with 'name' field
-        ingredients = data.detected_items.map((item: any) => item.name.toLowerCase());
-      }
-      
-      console.log('🔍 Extracted ingredients:', ingredients);
-      
-      setDetectedIngredients(ingredients);
-      
-      if (ingredients.length === 0) {
-        alert('No ingredients detected in the image. Try adding them manually or upload a clearer image.');
-      }
-    } catch (error) {
-      console.error('Detection error:', error);
-      alert('Failed to detect ingredients. Please try again or add ingredients manually.');
-    } finally {
-      setIsDetecting(false);
+    if (!response.ok) {
+      throw new Error(`Detection failed: ${response.status}`);
     }
-  };
 
+    const data = await response.json();
+    console.log('🔍 Detection API response:', data);
+    
+    // Extract ingredient names from DetectionResult objects
+    let ingredients: string[] = [];
+    
+    if (data.detected_items && Array.isArray(data.detected_items)) {
+      // Backend returns array of DetectionResult objects with 'name' field
+      ingredients = data.detected_items.map((item: any) => item.name.toLowerCase());
+    }
+    
+    console.log('🔍 Extracted ingredients:', ingredients);
+    
+    setDetectedIngredients(ingredients);
+    
+    if (ingredients.length === 0) {
+      alert('No ingredients detected in the image. Try adding them manually or upload a clearer image.');
+    }
+  } catch (error) {
+    console.error('❌ Detection error:', error);
+    alert('Failed to detect ingredients. Please try again or add ingredients manually.');
+  } finally {
+    setIsDetecting(false);
+  }
+};
   const handleAddManualIngredient = (ingredient: string) => {
     if (!manualIngredients.includes(ingredient)) {
       setManualIngredients([...manualIngredients, ingredient]);
@@ -373,5 +379,6 @@ const DetectionPage: React.FC = () => {
     </div>
   );
 };
+
 
 export default DetectionPage;
