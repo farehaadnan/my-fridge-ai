@@ -96,7 +96,7 @@ const DetectionPage: React.FC = () => {
 
   try {
     // Use environment variable for API URL
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+    const API_URL = import.meta.env.VITE_API_URL || 'https://my-fridge-ai-backend.onrender.com/';
     
     console.log('🔍 API URL:', API_URL); // Debug log
     
@@ -382,3 +382,4 @@ const DetectionPage: React.FC = () => {
 
 
 export default DetectionPage;
+
